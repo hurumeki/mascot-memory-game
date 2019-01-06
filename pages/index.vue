@@ -324,9 +324,10 @@ input {
 
   .logo {
     height: 60px;
-    margin: 10px;
+    margin: 10px 0;
     position: absolute;
-    left: calc(50% - 134px);
+    left: 50%;
+    transform: translate(-50%);
   }
 
   .card {
